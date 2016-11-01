@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	var a = $('#header')[0];
 	var b = $('a');
+	
 	b.click(function(event){
 		$(this).addClass('bold');
 		event.preventDefault();
